@@ -1,0 +1,311 @@
+=================================================
+Friday, August 1st 2008 - Rev 24
+(Built August 1st, 2008 at 8:23 PM)
+=================================================
+CHANGES
+- Added timers for cooldowns
+- Fixed summons being carried over
+- Carrying over cooldown details
+-------------------------------------------------
+NEXT PATCH
+- ???
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+- Re-add beholder
+=================================================
+=================================================
+Thursday, July 31st 2008 - Rev 23
+(Built July 31st, 2008 at 1:25 AM)
+=================================================
+CHANGES
+- Removed rings code - it screwed up
+- Fixed something - can't remember what
+- Trying some more stuff for Zak >.>
+- Tidied up pets code
+-------------------------------------------------
+NEXT PATCH
+- Add timers for cooldowns
+- Pass cooldown details to next channel
+- Save cooldown details in DB for relogging
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+- Re-add beholder
+=================================================
+=================================================
+Wednesday, July 30th 2008 - Rev 22
+(Built July 30th, 2008 at 8:30 PM)
+=================================================
+CHANGES
+- Buffs now stay on with !warp
+- Tweaked Autoban some more - shouldn't AB for no
+  good reason anymore.
+-------------------------------------------------
+NEXT PATCH
+- ???
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+- Re-add beholder
+=================================================
+=================================================
+Wednesday, July 30th 2008 - Rev 21
+(Built July 30th, 2008 at 7:06 PM)
+=================================================
+CHANGES
+- Buffs stay on when CCing, end at correct time
+- Added more test rings code - hopefully should work this time
+-------------------------------------------------
+NEXT PATCH
+- ???
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+- Re-add beholder
+=================================================
+=================================================
+Tuesday, July 29th 2008 - Rev 13
+(Built July 29th, 2008 at 6:51 PM)
+=================================================
+CHANGES
+- Trying to fix code for keeping buffs >.>
+-------------------------------------------------
+NEXT PATCH
+- More test rings code
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+- Re-add beholder
+=================================================
+=================================================
+Tuesday, July 29th 2008 - Rev 10
+(Built July 29th, 2008 at 5:04 PM)
+=================================================
+CHANGES
+- Added code for keeping buffs when changing channels
+-------------------------------------------------
+NEXT PATCH
+- More test rings code
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+- Re-add beholder
+=================================================
+=================================================
+Monday, July 28th 2008 - Rev 9
+(Built July 28th, 2008 at 4:48 PM)
+=================================================
+CHANGES
+- Same as last time >.>
+-------------------------------------------------
+NEXT PATCH
+- ???
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+- Re-add beholder
+=================================================
+=================================================
+Monday, July 28th 2008 - Rev 8
+(Built July 28th, 2008 at 4:24 PM)
+=================================================
+CHANGES
+- Trying something different for Zak - might work..
+-------------------------------------------------
+NEXT PATCH
+- ???
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+- Re-add beholder
+=================================================
+=================================================
+Monday, July 28th 2008 - Rev 7
+(Built July 28th, 2008 at 3:48 PM)
+=================================================
+CHANGES
+- Fixed bug that stopped normal ranged attacks working
+- Added code that MIGHT fix zak - doubt it though
+-------------------------------------------------
+NEXT PATCH
+- ???
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+- Re-add beholder
+=================================================
+=================================================
+Friday, July 26th 2008 - Rev 6
+(Built July 26th, 2008 at 2:02 PM)
+=================================================
+CHANGES
+- Fixed bug that stopped normal attacks applying
+- Added test rings code
+-------------------------------------------------
+NEXT PATCH
+- ???
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+- Show criticals to other people
+=================================================
+=================================================
+Friday, July 25th 2008 - Rev 5
+(Built July 25th, 2008 at 7:30 PM)
+=================================================
+CHANGES
+- Found cooldown header - they now work.
+-------------------------------------------------
+NEXT PATCH
+- Fix bug that stops normal attacks applying
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+=================================================
+Friday, July 25th 2008 - Rev 4
+(Built July 25th, 2008 at 7:30 PM)
+=================================================
+CHANGES
+- Fixed some bugs with cooldown *HOPEFULLY*
+-------------------------------------------------
+NOTES
+- Could not find cooldown header
+-------------------------------------------------
+NEXT PATCH
+- ???
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+=================================================
+Friday, July 25th 2008 - Rev 3
+(Built July 25th, 2008 at 7:02 PM)
+=================================================
+CHANGES
+- Added dispel
+- Fixed blizzard
+-------------------------------------------------
+NOTES
+- Could not find cooldown header
+-------------------------------------------------
+NEXT PATCH
+- ???
+-------------------------------------------------
+PLANS FOR FUTURE PATCHES
+- Paralyse's effect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+=================================================
+Friday, July 25th 2008 - Rev 2
+(Built July 25th, 2008 at 2:40 PM)
+-------------------------------------------------
+Added
+- Skill cooldowns
+- Fixed Heaven's Hammer
+-------------------------------------------------
+Next patch
+- Check Blizzard - possibly fix
+-------------------------------------------------
+Plans for future patches
+- Paralyse's affect on monsters
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games
+=================================================
+Friday, July 25th 2008 - Rev 1
+(Built July 25th, 2008 at 12:21 AM)
+-------------------------------------------------
+Added
+- MP portion of 1/1 attacks
+- MP burn attacks (e.g. HT's arms)
+-------------------------------------------------
+Added before this patch
+- Pets - missing - Multipet
+		 - Pet equips (MM, IP, etc)
+-------------------------------------------------
+Plans for next patch
+- Skill cooldowns
+- Status effects caused by monster attacks
+-------------------------------------------------
+Plans for future patches
+- Paralyse's affect on monsters
+- Check Blizzard - does it freeze?
+- Complete pets
+- Complete MapleSquad
+- Rings
+- Shops
+- Match games

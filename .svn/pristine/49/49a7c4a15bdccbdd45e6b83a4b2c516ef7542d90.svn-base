@@ -1,0 +1,50 @@
+Upgrading from 0.5
+==================
+
+You DO NOT have to wipe your existing database when upgrading.
+
+1. Copy the following files from the distribution into your existing directory and overwrite
+already existing files:
+	dist/exttools.jar
+	dist/odinms.jar
+	scripts/npc/*
+	sendops.properties
+2. Add the following lines to your world.properties file:
+	# time in milliseconds between ranking updates (default: 30 minutes)
+	net.sf.odinms.login.ranking.interval=1800000
+3. Execute the DatabaseUpdater tool. It will automagically detect which changes have 
+to be made in your database.
+The update.bat/update.sh file contains an example on how to run it.
+Make sure that your db.properties file is in the same directory as the update.bat/.sh file.
+
+
+Upgrading from SVN revisions after 0.5
+======================================
+
+If you already updated to a revision from the subversion repository
+you should follow the same procedure. The database update will detect
+which changes already happened.
+Please note: The SVN repository contains the most recent development code
+it may have not been tested on a production system yet.
+For a stable environment we recommend you to use the latest release. We
+can't give you any support with intermediate SVN versions.
+
+Changes in version 0.5.1
+========================
+
+- Support for Maple Story protocol version 0.54
+- Added scripts for forging NPCs
+- Added in game ranking feature
+- Added support for effect items and chairs
+- Added NPC scripting support for style as well as text and number input dialogs
+- Added quest support for fame and buff quest actions
+- Added support for showing the actual channel load to the login server
+- Added feature to work around NAT loopback problems using the subnet.properties file
+- Added autobans for improved cheat prevention
+- Improved password security by using SHA-512 and salting
+- Fixed the taxi NPC scripts to use the actual gMS prices including beginner discounts
+- Fixed equip stats randomization
+- Fixed repeatable quests
+- Fixed a meso explosion cheat
+- Fixed a trade bug
+- Fixed the Linux/Unix start scripts

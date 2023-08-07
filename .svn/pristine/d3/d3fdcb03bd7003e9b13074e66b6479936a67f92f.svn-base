@@ -1,0 +1,28 @@
+<project name="odinms" default="all">
+	<target name="all" depends="build">
+	</target>
+
+	<path id="theCP">
+		<fileset dir="../OdinMS3rdParty/">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+
+
+	<target name="build">
+		<delete>
+			<fileset dir="build">
+				<include name="odinms.jar" />
+				<include name="**/*.class" />
+			</fileset>
+		</delete>
+
+		<mkdir dir="build" />
+		<javac srcdir="src" destdir="build" classpathref="theCP" debug="off" source="1.6" />
+		<jar destfile="build/odinms.jar" compress="true">
+			<fileset dir="build/">
+				<include name="**/*.class" />
+			</fileset>
+		</jar>
+	</target>
+</project>
